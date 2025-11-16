@@ -14,7 +14,7 @@ import Telemedicine from "@/pages/telemedicine";
 import Wearables from "@/pages/wearables";
 import Analytics from "@/pages/analytics";
 import Profile from "@/pages/profile";
-
+import HealthRecords from "./pages/HealthRecords";
 function Router() {
   return (
     <Switch>
@@ -25,6 +25,7 @@ function Router() {
       <Route path="/wearables" component={Wearables} />
       <Route path="/analytics" component={Analytics} />
       <Route path="/profile" component={Profile} />
+      <Route path="/records" component={HealthRecords} />
       <Route component={NotFound} />
     </Switch>
   );

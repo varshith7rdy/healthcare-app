@@ -13,7 +13,7 @@ import {
   SidebarFooter,
 } from "@/components/ui/sidebar";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-
+import { FileText } from "lucide-react";
 const menuItems = [
   {
     title: "Dashboard",
@@ -44,6 +44,11 @@ const menuItems = [
     title: "Analytics",
     url: "/analytics",
     icon: BarChart3,
+  },
+  {
+    title: "Health Records",        // NEW
+    url: "/records",                // NEW
+    icon: FileText,                 // NEW
   },
 ];
 
