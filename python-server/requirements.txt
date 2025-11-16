@@ -1,0 +1,31 @@
+# requirements.txt
+
+# --- API Server ---
+fastapi
+uvicorn
+
+# --- LangChain Core ---
+langchain
+langchain-core
+langchain-community
+
+# --- Database (Chroma) ---
+langchain-chroma
+chromadb-client
+
+# --- LLM (Google Gemini) ---
+langchain-google-genai
+
+# --- Embeddings (Local) ---
+langchain-huggingface
+sentence-transformers
+
+# --- Document Loaders ---
+unstructured[all-docs]
+tqdm
+
+# --- Text Splitters ---
+langchain-text-splitters
+
+# --- Utilities ---
+python-dotenv
